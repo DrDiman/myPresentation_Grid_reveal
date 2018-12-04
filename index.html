@@ -30,18 +30,109 @@
         <h2>CSS Grid Layout</h2>
         <small>Created by <a href="https://github.com/DrDiman">Dzmitry Astraukh</a></small>
       </section>
-      <section>
-        <a href="https://caniuse.com/#search=grid">Can I use?</a>
-        <a href="https://drafts.csswg.org/css-grid/" target="_blank" rel="noopener noreferrer">Spec</a>
-      </section>
+
       <section>
         <h2>Agenda</h2>
         <ul>
-          <li class="fragment highlight-current-green">Properties for the Containier</li>
-          <li class="fragment highlight-current-green">Properties for the Items</li>
-          <li class="fragment highlight-current-green">Useful links</li>
+          <li>Intro & Browser Support</li>
+          <li>Terminology</li>
+          <li>Properties for the Containier</li>
+          <li>Properties for the Items</li>
+          <li>CSS functions</li>
+          <li>Useful links</li>
         </ul>
       </section>
+
+      <section>
+        <h3>Browser Support</h3>
+        <h4>Desktop</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Chrome</th>
+              <th>Opera</th>
+              <th>Firefox</th>
+              <th>Edge</th>
+              <th>Safari</th>
+              <th>IE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>70</td>
+              <td>56</td>
+              <td>63</td>
+              <td>18</td>
+              <td>12</td>
+              <td>11 -ms-</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h4>Mobile / Tablet</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Android Chrome</th>
+              <th>Opera Mobile</th>
+              <th>iOS Safari</th>
+              <th>Android Firefox</th>
+              <th>Android</th>
+              <th highlight-red>Opera Mini</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>70</td>
+              <td>46</td>
+              <td>12</td>
+              <td>63</td>
+              <td>67</td>
+              <td>NO</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><a href="https://caniuse.com/#search=grid">Can I use?</a></p>
+      </section>
+      <section>
+        <section>
+          <h4>Terminology</h4>
+        </section>
+        <section>
+          <img src="lib/src/terminology.jpg" alt="terminology" width="500">
+          <div>
+            <span style="background-color: gray">Grid containier</span>
+            <span style="background-color: yellow">Grid area</span>
+            <span style="background-color: red">Grid cell</span>
+          </div>
+          <div>
+            <span style="background-color: blue">Grid row</span>
+            <span style="background-color: purple">Grid column</span>
+            <span style="background-color: green">Grid line</span>
+          </div>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h4>Properties for the Grid Container</h4>
+        </section>
+        <section>
+          <ul>
+            <li>grid-template-columns</li>
+            <li>grid-template-rows</li>
+            <li>grid-row-gap</li>
+            <li>grid-column-gap</li>
+            <li>grid-auto-flow</li>
+          </ul>
+        </section>
+        <section>
+          <iframe src="https://codepen.io/DrDiman/pen/vQvZOG" frameborder="0" width="1300" height="750"></iframe>
+        </section>
+    </section>
+
+
+
       <section>
         <section>
           <h2>Properties for the Containier</h2>
@@ -57,7 +148,20 @@
         <section>третий</section>
       </section>
       <section>
+        <h3>CSS functions</h3>
+        <ul>
+          <li>repeat()</li>
+          <li>minmax()</li>
+          <li>fit-content()</li>
+          <li>auto-fill()</li>
+          <li>auto-fit()</li>
+        </ul>
+      </section>
+
+      <section>
         useful links
+        <p><a href="https://learn.freecodecamp.org/responsive-web-design/css-grid">FreeCodeCamp</a></p>
+        <p><a href="https://drafts.csswg.org/css-grid/" target="_blank" rel="noopener noreferrer">Spec</a></p>
       </section>
     </div>
   </div>
