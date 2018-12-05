@@ -4,11 +4,12 @@ CSS Grid-Layout
 
 [2 slide] Browser support.
 
-CSS Grid is well supported in most desktop and mobile browsers except Internet Explorar and Opera Mini, in IE you need to add prefix -ms-.
+    CSS Grid is well supported in most desktop and mobile browsers except Internet Explorar and Opera Mini, in IE you need to add prefix -ms-.
 
 [3 slide] Terminology.
 
   [3.1]
+
     Grid container - is the element on which display: grid is applied.
 
     Grid items - are direct children of the grid container.
@@ -23,12 +24,14 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
     Grid Area - is total space surrounded by four grid lines.
 
   [3.2]
+
     Fraction - is a flexible unit which represents the available space in the grid container.
     The real magic of CSS Grid Layout is the ability to mix flexible units and not-flexible units. 
 
 [4 slide] Properties for the grid container.
 
   [4.1]
+
     Grid-template-columns and grid-template-rows - are CSS properties which define the names of the grid lines and the track sizes.
 
     Grid-row-gap and grid-column-gap - are CSS properties which set the size of the gap between grid rows and columns.
@@ -40,6 +43,7 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
   [4.2] CodePen Examle.
 
   [4.3]
+
     Justify-content and align-content - are CSS properties which align the grid along the row axis and along the column axis.
     But it can be done when all of your grid items are sized with non-flexible units like px and the total size of your grid might be less than the size of its grid container.
 
@@ -48,6 +52,7 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
   [4.4] CodePen Examle.
 
   [4.5] 
+
     Grid-template-areas - is a CSS property which sets names for the grid areas.
     Instead of placing each individual item, we can define the entire layout using the grid-template-areas property. And then assign those areas to each grid item using the grid-area property.
 
@@ -56,6 +61,7 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
 [5 slide] Properties for the grid items.
 
   [5.1]
+
     grid-column-start,
     grid-column-end,
     grid-row-start,
@@ -70,6 +76,7 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
   [5.2] CodePen Examle.
 
   [5.3] 
+
     Justify-self,
     align-self,
     and their shorthand:
@@ -80,6 +87,7 @@ CSS Grid is well supported in most desktop and mobile browsers except Internet E
 [6 slide] Useful CSS functions.
 
   [6.1]
+  
     repeat() - is a CSS function which defines how many times to repeat length unit.
 
     minmax() - is a CSS function which defines a size range.
