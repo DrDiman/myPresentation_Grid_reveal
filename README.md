@@ -4,57 +4,57 @@ CSS Grid-Layout
 
 [2 slide] Browser support.
 
-    CSS Grid is well supported in most desktop and mobile browsers except Internet Explorar and Opera Mini, in IE you need to add prefix -ms-.
+  CSS Grid is well supported in most desktop and mobile browsers except Internet Explorar and Opera Mini, in IE you need to add prefix -ms-.
 
 [3 slide] Terminology.
 
   [3.1]
 
-    Grid container - is the element on which display: grid is applied.
+  Grid container - is the element on which display: grid is applied.
 
-    Grid items - are direct children of the grid container.
-    And children of the grid items are NOT grid items.
+  Grid items - are direct children of the grid container.
+  And children of the grid items are NOT grid items.
 
-    Grid Lines - are the dividing lines that make up the structure of the grid (vertical and horizontal).
+  Grid Lines - are the dividing lines that make up the structure of the grid (vertical and horizontal).
 
-    Grid Track - is a column or a row.
+  Grid Track - is a column or a row.
 
-    Grid Cell - is a single "unit" of the grid. 
+  Grid Cell - is a single "unit" of the grid. 
 
-    Grid Area - is total space surrounded by four grid lines.
+  Grid Area - is total space surrounded by four grid lines.
 
   [3.2]
 
-    Fraction - is a flexible unit which represents the available space in the grid container.
-    The real magic of CSS Grid Layout is the ability to mix flexible units and not-flexible units. 
+  Fraction - is a flexible unit which represents the available space in the grid container.
+  The real magic of CSS Grid Layout is the ability to mix flexible units and not-flexible units. 
 
 [4 slide] Properties for the grid container.
 
   [4.1]
 
-    Grid-template-columns and grid-template-rows - are CSS properties which define the names of the grid lines and the track sizes.
+  Grid-template-columns and grid-template-rows - are CSS properties which define the names of the grid lines and the track sizes.
 
-    Grid-row-gap and grid-column-gap - are CSS properties which set the size of the gap between grid rows and columns.
+  Grid-row-gap and grid-column-gap - are CSS properties which set the size of the gap between grid rows and columns.
 
-    Grid-auto-flow - is a CSS property controls how the auto-placement algorithm works.
+  Grid-auto-flow - is a CSS property controls how the auto-placement algorithm works.
 
-    Grid-auto-rows and grid-auto-columns - are CSS properties which specify the size of an implicitly-created grid row or column.
+  Grid-auto-rows and grid-auto-columns - are CSS properties which specify the size of an implicitly-created grid row or column.
 
   [4.2] CodePen Examle.
 
   [4.3]
 
-    Justify-content and align-content - are CSS properties which align the grid along the row axis and along the column axis.
-    But it can be done when all of your grid items are sized with non-flexible units like px and the total size of your grid might be less than the size of its grid container.
+  Justify-content and align-content - are CSS properties which align the grid along the row axis and along the column axis.
+  But it can be done when all of your grid items are sized with non-flexible units like px and the total size of your grid might be less than the size of its grid container.
 
-    Justify-items and align-items - are CSS properties which align grid items along the row axis and along the column axis.
+  Justify-items and align-items - are CSS properties which align grid items along the row axis and along the column axis.
 
   [4.4] CodePen Examle.
 
   [4.5] 
 
-    Grid-template-areas - is a CSS property which sets names for the grid areas.
-    Instead of placing each individual item, we can define the entire layout using the grid-template-areas property. And then assign those areas to each grid item using the grid-area property.
+  Grid-template-areas - is a CSS property which sets names for the grid areas.
+  Instead of placing each individual item, we can define the entire layout using the grid-template-areas property. And then assign those areas to each grid item using the grid-area property.
 
   [4.6] CodePen Examle.
 
@@ -62,25 +62,25 @@ CSS Grid-Layout
 
   [5.1]
 
-    grid-column-start,
-    grid-column-end,
-    grid-row-start,
-    grid-row-end,
-    grid-column,
-    and their shorthands:
-    grid-column,
-    grid-row - are CSS properties which determine grid item's locations within the grid by referring to specific grid lines.
+  grid-column-start,
+  grid-column-end,
+  grid-row-start,
+  grid-row-end,
+  grid-column,
+  and their shorthands:
+  grid-column,
+  grid-row - are CSS properties which determine grid item's locations within the grid by referring to specific grid lines.
 
-    Grid-area - is a CSS property which gives the reference name to grid item from grid-template-areas property. 
+  Grid-area - is a CSS property which gives the reference name to grid item from grid-template-areas property. 
 
   [5.2] CodePen Examle.
 
   [5.3] 
 
-    Justify-self,
-    align-self,
-    and their shorthand:
-    place-self - are CSS properties which align a grid item inside a cell along the row axis and along the column axis.
+  Justify-self,
+  align-self,
+  and their shorthand:
+  place-self - are CSS properties which align a grid item inside a cell along the row axis and along the column axis.
 
   [5.4] CodePen Examle.
   
@@ -88,11 +88,11 @@ CSS Grid-Layout
 
   [6.1]
   
-    repeat() - is a CSS function which defines how many times to repeat length unit.
+  repeat() - is a CSS function which defines how many times to repeat length unit.
 
-    minmax() - is a CSS function which defines a size range.
+  minmax() - is a CSS function which defines a size range.
 
-    fit-content() - is a CSS function which clamps a given size.
+  fit-content() - is a CSS function which clamps a given size.
 
   [6.2] CodePen Examle repeat().
   
